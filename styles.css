@@ -1,0 +1,18 @@
+button {
+    margin: 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px black solid;
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+}
