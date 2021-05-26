@@ -15,4 +15,6 @@ button {
     text-align: center;
     font-size: 5rem;
     padding: 1rem;
+    background-color: black;
+    color: white;
 }
