@@ -45,6 +45,12 @@ let randomColor = [`red`, `orange`, `yellow`, `green`, `blue`, `purple`]
 
 function colorChange(e) {
     e.target.style.backgroundColor = randomColor[Math.floor(Math.random() * 6)]
+    if (e.target.style.backgroundColor === `yellow`) {
+        e.target.style.color = `black`
+    }
+    else {
+        e.target.style.color = `white`
+    }
 }
 
 // Delete Square Function
